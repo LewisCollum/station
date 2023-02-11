@@ -10,6 +10,8 @@ python = "^3.10"
 fastapi = "^0.91.0"
 python-multipart = "^0.0.5"
 uvicorn = "^0.20.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 
 
 [build-system]
