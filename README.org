@@ -1,17 +1,12 @@
-** setup
-
 Install [[https://python-poetry.org/][poetry]]. Then install dependencies
 #+begin_src bash
   poetry install
 #+end_src
 
-** to start the app...
-
+To start the app...
 #+begin_src bash
   poetry shell
   poetry run start
 #+end_src
-
-** start poking...
 
 See the Swagger docs at =http://localhost:<port>/docs=
